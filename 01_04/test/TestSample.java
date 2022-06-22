@@ -7,7 +7,7 @@ public class TestSample  {
     public static void main(String[] args) {
 
         // Set the property for webdriver.chrome.driver to be the location to your local              download of chromedriver
-        System.setProperty("webdriver.chrome.driver", "/Users/meaghanlewis/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\Users\ManuJohn\Downloads\chromedriver.exe");
 
         // Create new instance of ChromeDriver
         WebDriver driver = new ChromeDriver();
